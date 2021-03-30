@@ -5,18 +5,29 @@
   "scripts": {
     "dev": "next dev",
     "build": "next build",
-    "start": "next start"
+    "start": "next start",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
+    "classnames": "^2.2.6",
     "next": "10.1.1",
     "react": "17.0.2",
     "react-dom": "17.0.2"
   },
   "devDependencies": {
-    "@tailwindcss/jit": "^0.1.17",
+    "@babel/core": "^7.13.14",
+    "@storybook/addon-actions": "^6.2.0-rc.12",
+    "@storybook/addon-essentials": "^6.2.0-rc.12",
+    "@storybook/addon-links": "^6.2.0-rc.12",
+    "@storybook/addon-postcss": "^2.0.0",
+    "@storybook/react": "^6.2.0-rc.12",
     "autoprefixer": "^10.2.5",
+    "babel-loader": "^8.2.2",
     "postcss": "^8.2.8",
+    "postcss-loader": "^5.2.0",
     "prettier": "^2.2.1",
+    "prop-types": "^15.7.2",
     "tailwindcss": "^2.0.4"
   }
 }
